@@ -6,27 +6,26 @@ import { Meal } from './meal.model';
   template: `
   <div class="container">
     <h1>Meal tracker</h1>
-    <div class="meals-info">
-        <meal-list
-          [mealList]="meals"
-          (onMealSelect)="mealWasSelected($event)">
-        </meal-list>
-      </div>
+    <meal-list [meals]="meals" (clickSender)="selectMeal($event)"></meal-list>
   </div>
   `
 })
 
 export class AppComponent {
-  public meals: Meal[];
-  constructor(){
-    this.meals = [
-      new Meal("Chicken Burger", "Ordered a salad on the side instead of fries.", 375),
-      new Meal("Ugali beef", "Didn't have enough meat.", 150),
-      new Meal("Pizza", "Had extra toppings, which I like.", 450)
+  public meals: Meal[] = [
+      new Meal("Chicken Burger", 375, "Ordered a salad on the side instead of fries."),
+      new Meal("Ugali beef", 150, "Didn't have enough meat."),
+      new Meal("Pizza", 450, "Had extra toppings, which I like.")
     ];
-  }
-  mealWasSelected(clickedMeal: Meal): void {
-    console.log("parent", clickedMeal);
-  }
 
+  selectedMeal = null;
+
+
+  selectMeal(meal) {
+    if(this.selectedMeal === Meal) {
+      this.selectedMeal = null;
+    } else {
+      this.selectedMeal = Meal;
+    }
+  }
 }
