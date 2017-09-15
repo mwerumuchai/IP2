@@ -5,27 +5,37 @@ import { Meal } from './meal.model';
   selector: 'my-app',
   template: `
   <div class="container">
-    <h1>Meal tracker</h1>
-    <meal-list [meals]="meals" (clickSender)="selectMeal($event)"></meal-list>
+    <h1>Meal Tracker</h1>
+    <meal-list
+      [childMealList]="masterMealList"
+      (clickSender)="showDetails($event)"
+     ></meal-list>
+     <!--<edit-task
+      [childSelectedMeal]="selectedMeal"
+      (doneClickedSender)="finishedEditing()"
+    ></edit-task>
+    <new-task
+      (newMealSender)="addMeal($event)"
+    ></new-task>-->
   </div>
   `
 })
 
 export class AppComponent {
-  public meals: Meal[] = [
-      new Meal("Chicken Burger", 375, "Ordered a salad on the side instead of fries."),
-      new Meal("Ugali beef", 150, "Didn't have enough meat."),
-      new Meal("Pizza", 450, "Had extra toppings, which I like.")
-    ];
-
-  selectedMeal = null;
-
-
-  selectMeal(meal) {
-    if(this.selectedMeal === Meal) {
-      this.selectedMeal = null;
-    } else {
-      this.selectedMeal = Meal;
-    }
+  public masterMealList: Meal[] = [
+      new Meal("Create To-Do List app.", 0),
+      new Meal("Learn Kung Fu.", 1),
+      new Meal("Rewatch all the Lord of the Rings movies.", 2),
+      new Meal("Do the laundry.", 3)
+  ];
+  /*selectedTask: Meal = null;
+  showDetails(clickedMeal: Meal) {
+    this.selectedMeal = clickedMeal;
   }
+  finishedEditing() {
+    this.selectedMeal = null;
+  }
+  addTask(newTaskFromChild: Meal) {
+    this.masterMealList.push(newMealFromChild);
+  }*/
 }
