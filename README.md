@@ -6,7 +6,7 @@
 
 _This is an Angular2 Project that keeps a list of logged meal according to their name, description or review of the meal eaten and also the number of calories each has. IN other words, It's like a food diary._
 
- ## Installing
+## Installation
  Use the following development commands
  1. Npm install
  2. Bower install
