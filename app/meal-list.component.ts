@@ -15,8 +15,8 @@ import { CaloriesPipe } from './calories.pipe';
     <h3>Log your food:</h3>
     <select (change)="onCaloriesChange($event.target.value)" class="filter form-control form-calories-select">
       <option value="all" selected="selected">All Meals</option>
-      <option value="under500"> < 500 Calories</option>
-      <option value="over500"> > 500 Calories</option>
+      <option value="under500"> Less than 500 Calories</option>
+      <option value="over500"> More than 500 Calories</option>
     </select>
     <div class="meal-display">
       <meal-display *ngFor="#currentMeal of mealList | calories:filterCalories"

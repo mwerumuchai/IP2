@@ -10,7 +10,7 @@ import { Meal } from './meal.model';
       <input value="Name" class="form-input" #newName/>
       <input value="Calories" class="form-input" type="number" #newCalories/>
       <input value="Description" class="form-input-details" #newDescription/>
-      <button (click)="addMeal(newName, newDescription, newCalories)" class="add-button">Add Meal</button>
+      <button (click)="addMeal(newName, newDescription, newCalories)" class="add-button btn btn-info">Add Meal</button>
     </div>
   `
 })

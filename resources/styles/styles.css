@@ -10,6 +10,71 @@ h1 {
 
 .container {
   color: #fff;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-left: 20px;
+}
+
+.form-input, .input-edit-meal {
+  height: 33px;
+  width: 175px;
+  margin: 8px 20px 8px 0;
+  border-radius: 5px;
+}
+
+input {
+  border: 6px;
+  color: #000000;
+  padding: 0 0 0 10px;
+}
+
+.add-button {
+  background-color: #d0f4f3;
+  border: 3px;
+  color: #730000;
+  font-weight: normal;
+  text-transform: lowercase;
+  letter-spacing: 0.2px;
+  font-size: 0.8em;
+  height: 33px;
+  width: 100px;
+  margin: 8px 20px 8px 0;
+  border-radius: 5px;
+}
+
+.edit-button {
+  background-color: #d0f4f3;
+  border: 3px;
+  color: #000000;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+  font-size: 0.8em;
+  height: 33px;
+  width: 100px;
+  margin: 8px 20px 8px 0;
+  border-radius: 5px;
+}
+
+.pipe-style {
+  font-weight: lighter;
+  color: #888888;
+}
+
+.pipe-style2 {
+  font-weight: lighter;
+  color: #777777;
+}
+
+.form-input-details, .input-edit-details, .input-edit-description {
+  height: 33px;
+  width: 500px;
+  margin: 8px 20px 8px 0;
+  border-radius: 5px;
+}
+
+select.form-calories-select, .input-edit-details {
+  height: 33px;
+  width: 333px;
+  margin: 8px 20px 8px 0;
+  border-radius: 5px;
 }
