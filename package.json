@@ -43,10 +43,5 @@
     "concurrently": "^2.2.0",
     "lite-server": "^2.2.2",
     "typescript": "^1.8.10",
-<<<<<<< HEAD
     "typings":"^1.3.2"
-=======
-    "typings": "^1.3.2"
->>>>>>> c7445a3af43b088907eda7e93a94b71751b8defe
-  }
 }
