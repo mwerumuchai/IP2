@@ -31,7 +31,7 @@ _This is an Angular2 Project that keeps a list of logged meal according to their
 * _Angular2_
 * _TypeScript_
 
-#### By _**Mweru Muchai**_
+#### Author _**Mweru Muchai**_
 
 ### License
 
