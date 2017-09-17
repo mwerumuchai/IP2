@@ -1,17 +1,25 @@
 {
   "compilerOptions": {
     "target": "es5",
+<<<<<<< HEAD
     "module": "system",
+=======
+    "module": "commonjs",
+>>>>>>> c7445a3af43b088907eda7e93a94b71751b8defe
     "moduleResolution": "node",
     "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": false
+<<<<<<< HEAD
   },
   "exclude": [
     "node_modules",
     "typings/main",
     "typings/main.d.ts"
   ]
+=======
+  }
+>>>>>>> c7445a3af43b088907eda7e93a94b71751b8defe
 }

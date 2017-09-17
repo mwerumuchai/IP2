@@ -1,14 +1,3 @@
-my-app {
-  background: url(../img/1.jpg) no-repeat center center fixed;
-  background-size: cover;
-  height: auto;
-  margin: 5% 15% 0 15%;
-  font-family: Sans-Serif;
-  position: relative;
-  padding-bottom: 50px;
-}
-
-h3 {
-  letter-spacing: 3px;
-  font-weight: lighter;
+h1 {
+  color: blue;
 }
