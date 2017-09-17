@@ -1,0 +1,22 @@
+{
+  "name": "IP2",
+  "description": "",
+  "main": "",
+  "license": "ISC",
+  "homepage": "https://github.com/mwerumuchai/IP2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^1.9"
+  },
+  "authors": [
+    "mwerumuchai <mwerumuchai@gmail.com>"
+  ],
+  "private": true
+}
