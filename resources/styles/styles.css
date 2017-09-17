@@ -1,3 +1,15 @@
+body {
+  background-image: url(/resources/img/4.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
 h1 {
   color: blue;
+}
+
+.container {
+  color: #fff;
+  font-size: 2em;
+  margin-left: 20px;
 }
