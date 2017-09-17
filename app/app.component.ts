@@ -6,10 +6,9 @@ import { MealListComponent } from './meal-list.component';
   selector: 'my-app',
   directives: [MealListComponent],
   template: `
-  <div align="center">
-    <h1><i>Food Diary</i></h1></div>
-  <div class="jumbotron">
+  <div class="jumbotron" align="center">
     <nav class="navbar navbar-default"></nav>
+    <h1><i>Food Diary</i></h1>
   </div>
     <div class="container" align="left">
       <div class="meals-info">
@@ -27,8 +26,8 @@ export class AppComponent {
   public meals: Meal[] = [];
   constructor(){
     this.meals = [
-      new Meal("Chicken Burger", "The service was slow", 350, 0),
-      new Meal("Pizza", "Had extra toppings which I like", 600, 1),
+      new Meal("*Chicken Burger", "The service was slow", 350, 0),
+      new Meal("*Pizza", "Had extra toppings which I like", 600, 1),
     ];
   }
 

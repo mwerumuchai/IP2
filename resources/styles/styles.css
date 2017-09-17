@@ -8,6 +8,15 @@ h1 {
   color: blue;
 }
 
+.jumbotron {
+  background-color: #cfcfe9;
+  height: 100px;
+}
+
+h3 {
+  color: #730000;
+}
+
 .container {
   color: #fff;
   font-size: 1.5em;
@@ -32,8 +41,6 @@ input {
   border: 3px;
   color: #730000;
   font-weight: normal;
-  text-transform: lowercase;
-  letter-spacing: 0.2px;
   font-size: 0.8em;
   height: 33px;
   width: 100px;
@@ -46,8 +53,6 @@ input {
   border: 3px;
   color: #000000;
   font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.2px;
   font-size: 0.8em;
   height: 33px;
   width: 100px;
