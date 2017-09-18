@@ -60,6 +60,18 @@ input {
   border-radius: 5px;
 }
 
+.meal-form {
+  position: absolute;
+  top: -450px;
+  left: 20px;
+}
+
+.foodlog {
+  position: absolute;
+  top: 600px;
+  left: 250px;
+}
+
 .pipe-style {
   font-weight: lighter;
   color: #888888;
