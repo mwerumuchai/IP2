@@ -1,6 +1,4 @@
-# IP2
-
-#### _Meal-Tracker Independent Project_
+## Meal Tracker
 
 ## Description
 
